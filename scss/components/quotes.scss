@@ -1,0 +1,45 @@
+.quotes {
+    --spacer: 1.5rem;
+
+    li:first-of-type {
+        transform : translateY(-1rem);
+    }
+
+    li:last-of-type {
+        transform : translateY(1rem);
+    }
+   
+
+    blockquote {
+        background: var(--clr-primary-700);
+        color: var(--clr-neutral-200);
+        text-align: left;
+        border-radius: var(--br);
+        padding: var(--spacer);
+        max-width: 25rem;
+        margin: 0 auto;
+        height: 100%;
+    }
+
+    img {
+        --spacer : 1rem;
+        width: 3rem;
+        border-radius: 50%;
+        margin-right: var(--spacer);
+    }
+
+    .quote {
+        margin-top: var(--spacer);
+    }
+
+   
+
+
+    .status {
+        color: var(--clr-primary-300);
+    }
+
+    .name {
+        font-weight: 800;
+    }
+}
