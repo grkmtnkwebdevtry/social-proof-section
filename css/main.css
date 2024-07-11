@@ -79,7 +79,9 @@ h1 {
 }
 
 .lead {
+  font-weight: 500;
   font-size: var(--fs-500);
+  color: var(--clr-neutral-100);
 }
 
 main {
