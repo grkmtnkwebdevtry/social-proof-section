@@ -52,7 +52,7 @@ body {
   font-size: var(--fs-400);
   padding-top: 5rem;
   text-align: center;
-  background-image: url(/images/bg-pattern-top-desktop.svg), url(/images/bg-pattern-bottom-desktop.svg);
+  background-image: url(./images/bg-pattern-top-desktop.svg), url(./images/bg-pattern-bottom-desktop.svg);
   height: 100vh;
   background-position: top left, bottom right;
   background-repeat: no-repeat;
@@ -188,7 +188,7 @@ main {
   margin: 0 auto;
   background: var(--clr-neutral-200);
   display: block;
-  background-image: url(/images/icon-star.svg);
+  background-image: url(./images/icon-star.svg);
   margin-bottom: 0.5rem;
   background-repeat: space;
 }
